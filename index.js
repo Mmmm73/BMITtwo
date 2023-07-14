@@ -50,6 +50,6 @@ app.post('/records', jsonParser, (request, response) => {
 
 
 app.listen(port);
-console.log('server is listening to port 3300');
+//console.log('server is listening to port 3300');
 console.log(`server listening on port ${port}`);
 
