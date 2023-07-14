@@ -1,6 +1,6 @@
-//const port = process.env.PORT || 8080;
-//const server = `http://localhost:${port}`;
-const server = 'http://localhost:3000';
+const port = process.env.PORT || 8080;
+const server = `http://localhost:${port}`;
+//const server = 'http://localhost:3000';
 
 document.querySelector('form').addEventListener('submit', (e) => {
     console.log("xxxx");
